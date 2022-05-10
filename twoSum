@@ -16,3 +16,16 @@ class Solution:
             else:
                 myDict[val] = i
         return
+
+###
+### remove dublicate from sorted list
+###
+class Solution:
+    def removeDuplicates(self, nums: List[int]) -> int:
+        j = 0
+        while j < len(nums) -1:
+            if nums[j] == nums[j+1]:
+                del nums[j]
+            else:
+                j += 1
+        return len(nums)
