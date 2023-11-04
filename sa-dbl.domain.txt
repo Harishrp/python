@@ -4,6 +4,7 @@ click.recommended_plan_in_signup.team
 process.data
 landing.care-first.co.za
 webmail.carefirst-trans.com
+homemdesucesso.cf
 govbdonline.ml
 webcubedev.tk
 artskull.tk
